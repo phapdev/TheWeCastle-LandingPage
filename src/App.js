@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="font-vt323 bg-[#222] ">
       <Header />
-      <main className=' flex flex-col gap-[100px] mt-[150px]'>
+      <main className=' flex flex-col gap-[100px]'>
         <Video />
         <About />
         <GamePlay />
