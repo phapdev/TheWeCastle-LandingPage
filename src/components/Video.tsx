@@ -17,15 +17,14 @@ const Video = () => {
                     Seamless Web3<br />
                     Integration
                 </h1>
-                <div className="flex flex-row items-center gap-[20px]">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="ml-[110px] text-white text-[24px] leading-[80px] underline">Watch video</a>
+                <div className="flex flex-row items-center gap-[20px] mt-[20px] justify-center ml-[100px]">
                     <a href='https://wecastle.vercel.app/' className="bg-[#FF9D43]  rounded-md h-[34px]">
                         <h1 className='text-black px-6 mt-1'>Play now</h1>
                     </a>
                 </div>
             </div>
-            <div className="w-[720px] h-[480px] bg-white rounded-xl relative z-10">
-                <video src={`${process.env.PUBLIC_URL}/video.mp4`} autoPlay loop muted className="w-full h-full rounded-xl" />
+            <div className="w-[750px] h-[421.5px] bg-white rounded-2xl relative z-10">
+                <video src='https://cdn-user.veed.io/render/premium/e63261d8-178e-46d5-9f4a-9f55d691a368.mp4#t=0.001' controls autoPlay loop muted className="w-full h-full rounded-xl" />
             </div>
         </div>
     )
