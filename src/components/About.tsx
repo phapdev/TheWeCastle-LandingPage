@@ -23,10 +23,11 @@ const About = () => {
           <br />
           called WECASTLE.
         </p>
-        <p className="text-[#DDD] text-[24px] leading-[24px] tracking-wide flex flex-row gap-[10px]">
+        <p className="text-white text-[24px] leading-[24px] tracking-wide flex flex-row gap-[10px]">
           <span>Build on The Open Network</span>
-          <img src={`${process.env.PUBLIC_URL}/images/aptos_title.png`} alt="aptos_title" width={100} height={24} />
+          <img src="https://movementlabs.xyz/wp-content/themes/movement-labs/assets/images/logo.svg" alt="aptos_title" width={200} height={48} className="white-logo" />
         </p>
+
       </div>
     </section>
   );

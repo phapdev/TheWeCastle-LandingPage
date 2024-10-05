@@ -14,10 +14,12 @@ const Feature = () => {
           <div className="w-[282px] h-[382px]">
             <img src={process.env.PUBLIC_URL + "/images/img-feature.png"} alt="Feature" className="object-cover rounded-2xl" />
           </div>
-          <div className="w-[412px] h-[558px] bg-white rounded-2xl">
+          <div className="w-[412px] h-[558px]">
+            <img src={process.env.PUBLIC_URL + "/images/img-feature-2.png"} alt="Feature" className="object-cover rounded-2xl" />
 
           </div>
-          <div className="w-[286px] h-[388px] bg-white rounded-2xl">
+          <div className="w-[286px] h-[388px]">
+            <img src={process.env.PUBLIC_URL + "/images/img-feature-3.png"} alt="Feature" className="object-cover rounded-2xl" />
 
           </div>
         </div>

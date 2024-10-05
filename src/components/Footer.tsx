@@ -8,20 +8,20 @@ const Footer = () => {
         <div className="container text-[32px] text-center">
           CONTACT US
         </div>
-        <a href="https://x.com/_longvu/" className="text-[32px] underline">
+        {/* <a href="https://x.com/TheWeCastle" className="text-[32px] underline">
           contact@weminal.org
-        </a>
+        </a> */}
         <div className="flex flex-row gap-[50px] mt-[40px]">
-          <a href="https://x.com/_longvu">
+          <a href="https://x.com/TheWeCastle">
             <img src={process.env.PUBLIC_URL + "/images/x-contact.png"} alt="Twitter" />
           </a>
-          <a href="https://x.com/_longvu">
+          <a href="https://t.me/+ZvLRay86WOllZmZl">
             <img src={process.env.PUBLIC_URL + "/images/tele-contact.png"} alt="Telegram" />
           </a>
-          <a href="https://x.com/_longvu">
+          <a href="#">
             <img src={process.env.PUBLIC_URL + "/images/dis-contact.png"} alt="Discord" />
           </a>
-          <a href="https://x.com/_longvu">
+          <a href="#">
             <img src={process.env.PUBLIC_URL + "/images/yout-contact.png"} alt="Youtube" />
           </a>
         </div>

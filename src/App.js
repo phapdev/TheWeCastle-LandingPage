@@ -6,6 +6,7 @@ import Feature from './components/Feature.tsx';
 import Hero from './components/Hero.tsx';
 import Video from './components/Video.tsx';
 import GamePlay from './components/GamePlay.tsx';
+import './App.css';
 
 const App = () => {
   return (
