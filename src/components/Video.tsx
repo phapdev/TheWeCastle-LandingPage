@@ -19,7 +19,9 @@ const Video = () => {
                 </h1>
                 <div className="flex flex-row items-center gap-[20px]">
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="ml-[110px] text-white text-[24px] leading-[80px] underline">Watch video</a>
-                    <button className="bg-[#FF9D43] text-black px-4 rounded-md h-[34px] w-[112px]">Play now</button>
+                    <a href='https://wecastle.vercel.app/' className="bg-[#FF9D43]  rounded-md h-[34px]">
+                        <h1 className='text-black px-6 mt-1'>Play now</h1>
+                    </a>
                 </div>
             </div>
             <div className="w-[720px] h-[480px] bg-white rounded-xl relative z-10">
