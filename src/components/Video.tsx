@@ -31,7 +31,7 @@ const Video = () => {
       </div>
       <div className="w-[750px] h-[421.5px] bg-white rounded-2xl relative z-10">
         <iframe
-          src="https://www.veed.io/embed/89df0c19-bb39-4ff0-8ffb-57b4c9697e85?watermark=0&color=blue&sharing=0&title=1"
+          src="https://www.veed.io/embed/89df0c19-bb39-4ff0-8ffb-57b4c9697e85?watermark=0&color=red&sharing=0&title=1"
           width="744"
           height="504"
           title="WECASTLE DEMO"
