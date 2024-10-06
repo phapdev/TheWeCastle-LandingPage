@@ -18,7 +18,7 @@ const GamePlay = () => {
           id="div1"
           className="absolute top-[40px] left-[85px] rounded-2xl w-[350px] h-[250px] bg-[#ddd] border-2 border-black opacity-80 p-10 pt-14"
         >
-          <p className='text-black text-left text-2xl text-justify'>THE GAME IS AN "ON CHAIN" GAME, MEANING THE BATTLES ARE SIMULATED AND STORED ON THE SUI BLOCKCHAIN.</p>
+          <p className='text-black text-left text-2xl text-justify'>THE GAME IS AN "ON CHAIN" GAME, MEANING THE BATTLES ARE SIMULATED AND STORED ON THE MOVEMENT BLOCKCHAIN.</p>
         </div>
         <div
           id="div2"
