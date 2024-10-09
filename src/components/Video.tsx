@@ -31,11 +31,14 @@ const Video = () => {
       </div>
       <div className="w-[750px] h-[421.5px] bg-white rounded-2xl relative z-10">
         <iframe
-          src="https://www.veed.io/embed/89df0c19-bb39-4ff0-8ffb-57b4c9697e85?watermark=0&color=red&sharing=0&title=1"
+          src="https://www.youtube.com/embed/wkVY3xfXsOE"
           width="744"
           height="504"
           title="WECASTLE DEMO"
           className="w-full h-full rounded-xl"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       </div>
     </div>
