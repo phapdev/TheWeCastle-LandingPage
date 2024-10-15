@@ -31,7 +31,7 @@ const Video = () => {
       </div>
       <div className="w-[750px] h-[421.5px] bg-white rounded-2xl relative z-10">
         <iframe
-          src="https://www.youtube.com/embed/wkVY3xfXsOE"
+          src="https://www.youtube.com/embed/5GQOho8rt6I"
           width="744"
           height="504"
           title="WECASTLE DEMO"

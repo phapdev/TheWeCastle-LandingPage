@@ -16,7 +16,7 @@ const Header = () => {
         <h1 className="text-2xl">Documentation</h1>
         <img src={`${process.env.PUBLIC_URL}/images/wecastle_title.png`} alt="logo" className="w-[209px] h-full" />
         <a href="#about" className="text-2xl" onClick={handleAboutClick}>About us</a>
-        <a href='https://wecastle.vercel.app/' className="bg-[#FF9D43]  rounded-md h-[34px]">
+        <a href='https://we-castle-aptos.vercel.app/' className="bg-[#FF9D43]  rounded-md h-[34px]">
           <h1 className='text-black px-4 mt-1'>Play now</h1>
         </a>
       </div>

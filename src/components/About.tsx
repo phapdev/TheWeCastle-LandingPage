@@ -1,4 +1,5 @@
 import React from 'react';
+import aptosLogo from '/images/aptos_title.png';
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
         </p>
         <p className="text-white text-[24px] leading-[24px] tracking-wide flex flex-row gap-[10px]">
           <span>Build on The Open Network</span>
-          <img src="https://movementlabs.xyz/wp-content/themes/movement-labs/assets/images/logo.svg" alt="aptos_title" width={200} height={48} className="white-logo" />
+            <img src={`${process.env.PUBLIC_URL}/images/aptos_title.png`} alt="aptos_title" width={100} height={48} className="" />
         </p>
 
       </div>

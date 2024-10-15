@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="https://x.com/TheWeCastle">
             <img src={process.env.PUBLIC_URL + "/images/x-contact.png"} alt="Twitter" />
           </a>
-          <a href="https://t.me/+ZvLRay86WOllZmZl">
+          <a href="https://t.me/TheWeCastle_bot">
             <img src={process.env.PUBLIC_URL + "/images/tele-contact.png"} alt="Telegram" />
           </a>
           <a href="#">
