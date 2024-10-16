@@ -22,7 +22,7 @@ const Video = () => {
         </h1>
         <div className="flex flex-row items-center gap-[20px] mt-[20px] justify-center ml-[100px]">
           <a
-            href="https://wecastle.vercel.app/"
+            href="https://we-castle-aptos.vercel.app/"
             className="bg-[#FF9D43]  rounded-md h-[34px]"
           >
             <h1 className="text-black px-6 mt-1">Play now</h1>
